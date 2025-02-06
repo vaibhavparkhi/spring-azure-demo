@@ -15,7 +15,7 @@ public class DemoApplication {
 
 	@GetMapping("/message")
 	public String message() {
-		return "App deploy on Azure!";
+		return "App deploy successfully on Azure!";
 	}
 
 }
